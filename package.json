@@ -21,8 +21,10 @@
     "eslint-plugin-standard": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "config": "^1.30.0",
     "connect": "^3.6.6",
+    "cors": "^2.8.4",
     "jayson": "^2.0.6"
   }
 }

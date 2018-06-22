@@ -3,8 +3,12 @@ const {EventEmitter} = require('events')
 class RpcServer extends EventEmitter {
   constructor(app, ctx) {
     super()
+    this.app = app
+    this.ctx = ctx
+  }
 
-    console.log('app', app)
+  start() {
+    // TODO
   }
 }
 
